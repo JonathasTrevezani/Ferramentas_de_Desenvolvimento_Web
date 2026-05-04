@@ -1,4 +1,4 @@
-# Quiz# 📚 Quiz - Formação Cidadã Contemporânea
+# Quiz# 📚 Quiz - Fundamentos de Sistema de Informação
 
 [![Licença](https://img.shields.io/badge/licença-MIT-blue.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-ativo-brightgreen.svg)]()
@@ -8,7 +8,7 @@
 
 ## 📖 Sobre o Projeto
 
-Este é um **quiz interativo** desenvolvido para auxiliar no estudo da disciplina **Formação Cidadã Contemporânea**. O projeto foi criado com base em questões do **ENADE** e conteúdos programáticos da disciplina, oferecendo uma ferramenta prática para autoavaliação e revisão de conceitos.
+Este é um **quiz interativo** desenvolvido para auxiliar no estudo da disciplina **Fundamentos de Sistema de Informação**. O projeto foi criado com base em questões do **ENADE** e conteúdos programáticos da disciplina, oferecendo uma ferramenta prática para autoavaliação e revisão de conceitos.
 
 ### 🎯 Finalidade
 

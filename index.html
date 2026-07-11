@@ -405,8 +405,8 @@
                 <option value="">-- Selecione um tema --</option>
                 <option value="design_responsivo">1. Design Responsivo vs Design Adaptativo</option>
                 <option value="heuristicas_nielsen">2. Heurísticas de Nielsen Aplicadas ao Design Móvel</option>
-                <option value="prototipacao_ferramentas">3. Ferramentas de Prototipação e suas Funcionalidades</option>
-                <option value="material_design">4. Componentes e Diretrizes do Material Design</option>
+                <option value="prototipacao_ferramentas">3. Ferramentas de Prototipação</option>
+                <option value="material_design">4. Componentes do Material Design</option>
                 <option value="mobile_first">5. Mobile First e Design Centrado no Usuário</option>
             </select>
         </div>
@@ -431,42 +431,37 @@
             <div style="margin-top: 15px; padding: 15px; background: #e9ecef; border-radius: 10px;">
 
                 <p><strong>1. Design Responsivo vs Design Adaptativo:</strong><br>
-                O <strong>Design Responsivo (RWD)</strong> utiliza um único layout fluido que se reorganiza automaticamente para diferentes larguras de tela, empregando técnicas como grid fluído, imagens flexíveis e media queries do CSS3. O conteúdo se adapta dinamicamente conforme o tamanho da tela, sem necessidade de múltiplas versões. Já o <strong>Design Adaptativo (AWD)</strong> utiliza múltiplos layouts fixos, pré-definidos, que são selecionados pelo navegador com base nas características da mídia detectada (media queries). Cada versão é projetada para um dispositivo específico (desktop, tablet, smartphone), entregando layouts distintos conforme a resolução. Enquanto o responsivo é mais fluido e contínuo, o adaptativo oferece mais controle sobre a experiência em cada dispositivo, porém exige mais trabalho de desenvolvimento. Ambos utilizam media queries, mas com abordagens diferentes: o responsivo ajusta um layout fluido, enquanto o adaptativo carrega versões fixas pré-determinadas.</p>
+                <strong>Responsivo (RWD):</strong> um único layout fluido que se adapta automaticamente a qualquer tela usando grid fluído, imagens flexíveis e media queries.<br>
+                <strong>Adaptativo (AWD):</strong> múltiplos layouts fixos, pré-definidos, carregados conforme o dispositivo detectado (desktop, tablet, smartphone).<br>
+                Ambos usam media queries, mas o responsivo é contínuo e fluido; o adaptativo oferece mais controle, porém exige mais versões.</p>
 
                 <p><strong>2. Heurísticas de Nielsen Aplicadas ao Design Móvel:</strong><br>
-                As 10 heurísticas de Nielsen são diretrizes fundamentais para avaliar a usabilidade de interfaces. No contexto móvel, destacam-se:<br>
-                • <strong>Visibilidade do status do sistema</strong>: o usuário deve saber onde está na interface, com indicadores de navegação e feedback visual claro (ex: barras de progresso, destaques de menus).<br>
-                • <strong>Correspondência entre o sistema e o mundo real</strong>: usar metáforas familiares, como o carrinho de compras, que remete à experiência física de compras, facilitando o entendimento.<br>
-                • <strong>Controle e liberdade do usuário</strong>: oferecer opções de desfazer/refazer ações, especialmente em telas sensíveis ao toque, como botão de voltar.<br>
-                • <strong>Prevenção de erros</strong>: alertar antes de ações críticas, como exclusão de dados ou confirmação de compra, evitando ações irreversíveis.<br>
-                • <strong>Reconhecimento em vez de memorização</strong>: tornar elementos reconhecíveis, evitando que o usuário memorize atalhos ou sequências longas de ações.<br>
-                Essas heurísticas são essenciais para garantir uma navegação simples, intuitiva e eficiente em aplicativos móveis.</p>
+                Diretrizes para avaliar usabilidade. Destaques para mobile:<br>
+                • <strong>Visibilidade do status:</strong> mostrar onde o usuário está (indicadores, feedback).<br>
+                • <strong>Correspondência com o mundo real:</strong> usar metáforas familiares (ex: carrinho de compras).<br>
+                • <strong>Controle e liberdade:</strong> opções de desfazer/refazer.<br>
+                • <strong>Prevenção de erros:</strong> alertar antes de ações críticas.<br>
+                • <strong>Reconhecimento vs memorização:</strong> evitar que o usuário memorize atalhos.</p>
 
-                <p><strong>3. Ferramentas de Prototipação e suas Funcionalidades:</strong><br>
-                Ferramentas de prototipação permitem criar modelos interativos das interfaces antes do desenvolvimento final. Cada ferramenta tem características específicas:<br>
-                • <strong>Balsamiq</strong>: foca em wireframes de baixa fidelidade, rápidos e simples, ideais para esboços iniciais. Exporta para PNG/PDF.<br>
-                • <strong>Justinmind</strong>: permite protótipos avançados com interações gestuais, animações e lógica condicional, ideal para testar fluxos complexos.<br>
-                • <strong>Proto.io</strong>: ferramenta online que cria protótipos interativos com alta fidelidade, simulando gestos e transições, com testes diretos no navegador ou via QR Code.<br>
-                • <strong>UXPin</strong>: foca em prototipagem baseada em código, com colaboração em equipe e compartilhamento online, integrando design e desenvolvimento.<br>
-                • <strong>Figura e Adobe XD</strong>: ferramentas completas para design e prototipagem interativa, com recursos de colaboração e integração com outras plataformas.<br>
-                A escolha da ferramenta depende do objetivo: wireframes iniciais (Balsamiq), testes interativos (Justinmind, Proto.io) ou design colaborativo e integração com desenvolvimento (Figma, Adobe XD).</p>
+                <p><strong>3. Ferramentas de Prototipação:</strong><br>
+                • <strong>Balsamiq:</strong> wireframes de baixa fidelidade, rápidos e simples. Exporta PNG/PDF.<br>
+                • <strong>Justinmind:</strong> protótipos avançados com gestos, animações e lógica condicional.<br>
+                • <strong>Proto.io:</strong> protótipos interativos de alta fidelidade, testáveis no navegador ou via QR Code.<br>
+                • <strong>UXPin:</strong> prototipagem baseada em código, colaborativa.<br>
+                • <strong>Figma e Adobe XD:</strong> design e prototipagem interativa com colaboração.</p>
 
-                <p><strong>4. Componentes e Diretrizes do Material Design:</strong><br>
-                O Material Design é um sistema de design criado pelo Google que estabelece diretrizes para interfaces consistentes e intuitivas em dispositivos móveis. Seus componentes essenciais incluem:<br>
-                • <strong>Barras de aplicativo (App Bars)</strong>: organizam título, navegação e ações principais da tela, garantindo hierarquia visual.<br>
-                • <strong>Botões</strong>: comunicam ações disponíveis, com variações como botões de texto (baixa ênfase), com contorno (média ênfase), contidos (alta ênfase) e de alternância (agrupam ações).<br>
-                • <strong>Listas</strong>: exibem conjuntos de itens que podem combinar texto, ícones e imagens, organizando informações de forma clara.<br>
-                • <strong>Campos de entrada</strong>: permitem interação do usuário, com estados visuais (focado, preenchido, erro) para orientar a navegação.<br>
-                • <strong>Checkbox e Radio Buttons</strong>: componentes de seleção; checkbox permite seleção múltipla, enquanto radio buttons limitam a uma opção.<br>
-                O Material Design recomenda usar rótulos em maiúsculas para botões, evitar quebra de linhas, evitar rótulos extensos, e posicionar navegação à esquerda, títulos à direita.</p>
+                <p><strong>4. Componentes do Material Design:</strong><br>
+                Sistema do Google para interfaces móveis. Componentes essenciais:<br>
+                • <strong>App Bars:</strong> organizam título, navegação e ações principais.<br>
+                • <strong>Botões:</strong> texto (baixa ênfase), contorno (média), contidos (alta) e alternância.<br>
+                • <strong>Listas:</strong> organizam itens com texto, ícones e imagens.<br>
+                • <strong>Campos de entrada:</strong> com estados visuais (focado, preenchido, erro).<br>
+                • <strong>Checkbox:</strong> seleção múltipla; <strong>Radio Button:</strong> seleção única.</p>
 
                 <p><strong>5. Mobile First e Design Centrado no Usuário:</strong><br>
-                O <strong>Mobile First</strong>, proposto por Luke Wroblewski em 2009, é uma abordagem de design que prioriza a versão mobile no início do projeto, focando no conteúdo essencial e eliminando excessos visuais. Essa estratégia surgiu com o crescimento acelerado do uso de dispositivos móveis e reconhece que telas pequenas exigem simplicidade e priorização. Os benefícios incluem:<br>
-                • <strong>Foco no essencial</strong>: obriga a equipe a definir o que realmente importa para o usuário, descartando elementos desnecessários.<br>
-                • <strong>Performance otimizada</strong>: projetos mais leves e rápidos, beneficiando usuários com conexões lentas.<br>
-                • <strong>Experiência consistente</strong>: a partir da versão mobile, a experiência é expandida para telas maiores (desktop), garantindo que o conteúdo principal esteja sempre presente.<br>
-                • <strong>Adaptação natural</strong>: ao contrário do design adaptativo (que cria versões fixas para cada dispositivo), o Mobile First é uma filosofia de projeto que se alinha com o design responsivo, priorizando a experiência do usuário em qualquer dispositivo.<br>
-                O Google recomenda o Mobile First como boa prática, especialmente para sites e aplicativos que buscam alcançar usuários que acessam predominantemente via dispositivos móveis.</p>
+                Abordagem que prioriza a versão mobile no início do projeto (Luke Wroblewski, 2009).<br>
+                Benefícios: foco no essencial, performance otimizada, experiência consistente do mobile para o desktop.<br>
+                Google recomenda Mobile First como boa prática para projetos que buscam alcançar usuários móveis.</p>
 
             </div>
         </details>

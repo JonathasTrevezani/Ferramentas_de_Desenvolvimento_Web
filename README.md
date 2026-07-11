@@ -66,7 +66,7 @@ O quiz está disponível através do GitHub Pages:
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/JonathasTrevezani/Quiz-Design-Interacao.git
+git clone https://github.com/JonathasTrevezani/Quiz_Design_Interacao.git
 
 2. Entre na pasta do projeto:
 

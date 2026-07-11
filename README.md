@@ -59,7 +59,7 @@ Este é um **quiz interativo** desenvolvido para auxiliar no estudo da disciplin
 
 O quiz está disponível através do GitHub Pages:
 
-🔗 **[Insira aqui o link do seu GitHub Pages]**
+🔗 **[[ Acesse Online ](https://jonathastrevezani.github.io/Quiz_Design_Interacao/)]**
 
 ### Executar Localmente
 

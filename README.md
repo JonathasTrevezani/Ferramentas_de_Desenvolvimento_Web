@@ -63,11 +63,11 @@ Este é um **quiz interativo** desenvolvido para auxiliar no estudo da disciplin
 
 O quiz está disponível através do GitHub Pages:
 
-🔗 **[Clique aqui para acessar o quiz](https://jonathastrevezani.github.io/Ferramentas_de_Desenvolvimento_Web/)**
+🔗 **[Clique aqui para acessar o quiz](https://jonathastrevezani.github.io/Quiz_Ferramentas_de_Desenvolvimento_Web)**
 
 ### Executar Localmente
 
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/JonathasTrevezani/Ferramentas_de_Desenvolvimento_Web.git
+git clone https://github.com/JonathasTrevezani/Quiz_Ferramentas_de_Desenvolvimento_Web.git
